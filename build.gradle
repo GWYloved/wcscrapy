@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'ypc'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.0'
+    implementation 'org.jsoup:jsoup:1.11.3'
+}
